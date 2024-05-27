@@ -1,17 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BasicMapComponent from './BasicMapComponent';
+import MapComponent from './MapComponent';
 
-function App() {
+const App: React.FC = () => {  
+
   return (
-    <div className="App">
-      <header className="App-header">        
-        <p>
-          ArcGIS POC
-        </p>        
-      </header>
+    <BrowserRouter>
+    <div>
+      <p>ArcGIS Demo</p>
+      <Routes>
+        <Route index element={<MapComponent/>} />
+        <Route path='/basic' element={<BasicMapComponent/>} />
+      </Routes>
     </div>
-  );
-}
+
+    </BrowserRouter>
+  );  
+};
 
 export default App;
