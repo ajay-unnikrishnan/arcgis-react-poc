@@ -1,0 +1,9 @@
+[
+    { "iataCode": "DEL", "coordinates": [77.118, 28.569], "name": "Indira Gandhi International Airport", "marketSize": 12 },
+    { "iataCode": "COK", "coordinates": [76.402, 10.152], "name": "Cochin International Airport", "marketSize": 6 },
+    { "iataCode": "MAA", "coordinates": [80.175, 12.995], "name": "Chennai International Airport", "marketSize": 6 },
+    { "iataCode": "HYD", "coordinates": [78.468, 17.453], "name": "Rajiv Gandhi International Airport", "marketSize": 6 },
+    { "iataCode": "BLR", "coordinates": [77.700, 13.200], "name": "Kempegowda International Airport", "marketSize": 12 },
+    { "iataCode": "BOM", "coordinates": [72.868, 19.089], "name": "Chhatrapati Shivaji Maharaj International Airport", "marketSize": 12 },
+    { "iataCode": "SEA", "coordinates": [-122.3073, 47.44860], "name": "Seattle–Tacoma International Airport", "marketSize": 15 }
+]
